@@ -28,7 +28,7 @@ function Map({ searchResults }) {
 
   return (
   <ReactMapGL 
-  className = " xl:inline-flex"
+  className = ""
    mapStyle= 'mapbox://styles/muwongelawrence/ckyvhxc5e003914pdgkn3zj8m'
    mapboxApiAccessToken = { process.env.mapbox_key }
    { ...viewport }

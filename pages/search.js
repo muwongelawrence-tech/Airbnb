@@ -59,7 +59,7 @@ function Search({ searchResults }) {
 
           {/* adding map */}
 
-          <section className = " min-w-[300px] xl:min-w-[500px]">
+          <section className = " xl:min-w-[500px]">
                  <Map searchResults = { searchResults }/>
           </section>
 
